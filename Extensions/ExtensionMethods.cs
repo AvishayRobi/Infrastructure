@@ -20,5 +20,10 @@ namespace WallaShops.Utils
         action(item);
       }
     }
+    
+    public static HashSet<T> ToHashSet<T>(this IEnumerable<T> source)
+    {
+      return new HashSet<T>(source);
+    }
   }
 }
