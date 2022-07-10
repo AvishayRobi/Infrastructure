@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WallaShops.Utils
 {
-  public static class ExtensionMethods
+  public static class IEnumerableExtentionMethods
   {
     public static void ApplyEach<T>(this IEnumerable<T> enumeration, Action<T> action)
     {
